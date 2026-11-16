@@ -10,6 +10,9 @@ Mistral 32 est une marque de pastis **fictive**, créée pour ce projet, un past
 ## Maquettes Figma
 - **[Voir les maquettes sur Figma](https://www.figma.com/design/WBeU4ioqDpTzXdoa88pt99/Mistral-32-%E2%80%93-Maquettes?node-id=0-1&t=AezXo0IblT8DfOMD-1)**
 
+## Lien Github
+- **[Github](https://github.com/mathys-chn/Mistral-32)**
+
 ## Pages du site
 
 | Page | Contenu |
