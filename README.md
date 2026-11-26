@@ -20,10 +20,10 @@ Mistral 32 est une marque de pastis **fictive**, créée pour ce projet, un past
 
 | Page | Contenu |
 |---|---|
-| **Accueil (Index)** | Présentation de la marque, nos pastis, l'art du service, avis clients |
-| **Nos produits** *(en cours)* | La gamme Mistral 32 (Original, Citron Bio, Réserve) |
+| **Accueil (Index)** | Présentation de la marque, nos pastis, l'art du service, avis clients et formulaire « Donnez votre avis » |
+| **Nos produits** | La gamme Mistral 32 (Original, Citron Bio, Réserve) |
 | **Pastisologie** | Les arômes, l'art du service, le louche et les questions sur le pastis |
-| **Notre histoire** *(en cours)* | L'histoire de la marque Mistral 32 |
+| **Notre histoire** | L'histoire de la marque Mistral 32 |
 
 Le site a un thème clair et un thème sombre, qu'on change avec le bouton en haut de la page.
 
@@ -61,7 +61,8 @@ Le site a un thème clair et un thème sombre, qu'on change avec le bouton en ha
 
 ## Sources
 
-- Photos : images générées par IA (ChatGPT)
+- Photos : toutes les photos du site sont générées par IA avec ChatGPT (abonnement premium)
+- Logos (SVG) : générés par IA avec Claude (abonnement Pro)
 - Polices : Google Fonts (Playfair Display, Inter)
 
 ---
