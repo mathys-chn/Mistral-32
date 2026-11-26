@@ -1,0 +1,23 @@
+:root {
+    --page: #fffbef;
+    --hero: #1d4e9e;
+    --alternative: #f3e7b0;
+    --action: #1d4e9e;
+    --accent: #f7c600;
+    --carte: #fffbef;
+    --texte: #1c2230;
+    --titre: #1d4e9e;
+    --texte-hero: #fffbef;
+    --texte-action: #fffbef;
+    --texte-accent: #1d4e9e;
+    --lien: #1d4e9e;
+    --bordure: #f3e7b0;
+    --bordure-action: #1d4e9e;
+    --switch-piste: #edede9;
+    --switch-icone: #a56e00;
+}
+
+.lune,
+.footer-marque .logo-sombre {
+    display: none;
+}

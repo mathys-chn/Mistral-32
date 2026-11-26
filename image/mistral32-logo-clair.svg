@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 140" width="420" height="140">
+  <title>Mistral 32 - Logo theme clair</title>
+  <circle cx="72" cy="70" r="42" fill="#F7C600"/>
+  <path d="M22 50 H112 Q130 50 130 34" stroke="#1D4E9E" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M10 72 H138" stroke="#1D4E9E" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M30 94 H102 Q120 94 120 110" stroke="#1D4E9E" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <text x="160" y="72" font-family="Playfair Display, Georgia, serif" font-size="48" font-weight="700" fill="#1D4E9E">Mistral</text>
+  <text x="163" y="110" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="9" fill="#D52B1E">32</text>
+  <line x1="215" y1="101" x2="400" y2="101" stroke="#F7C600" stroke-width="3"/>
+</svg>
