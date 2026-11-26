@@ -61,8 +61,8 @@ Le site a un thème clair et un thème sombre, qu'on change avec le bouton en ha
 
 ## Sources
 
-- Photos : toutes les photos du site sont générées par IA avec ChatGPT (abonnement premium)
-- Logos (SVG) : générés par IA avec Claude (abonnement Pro)
+- Photos : toutes les photos du site sont générées par IA avec ChatGPT
+- Logos (SVG) : générés par IA avec Claude
 - Polices : Google Fonts (Playfair Display, Inter)
 
 ---
