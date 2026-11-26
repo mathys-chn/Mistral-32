@@ -1,4 +1,4 @@
-# Mistral 32 Maquettes Figma
+# Mistral 32
 
 Mistral 32 est une marque de pastis **fictive**, créée pour ce projet, un pastis artisanal de Provence.
 
@@ -6,6 +6,9 @@ Mistral 32 est une marque de pastis **fictive**, créée pour ce projet, un past
 - CHENU Mathys
 - PICO Baptiste
 - BELTRAME Hugo
+
+## Voir le site
+- **[Site en ligne](https://mathys-chn.github.io/Mistral-32/)**
 
 ## Maquettes Figma
 - **[Voir les maquettes sur Figma](https://www.figma.com/design/WBeU4ioqDpTzXdoa88pt99/Mistral-32-%E2%80%93-Maquettes?node-id=0-1&t=AezXo0IblT8DfOMD-1)**
@@ -17,10 +20,12 @@ Mistral 32 est une marque de pastis **fictive**, créée pour ce projet, un past
 
 | Page | Contenu |
 |---|---|
-| **Accueil (Index)** | Présentation de la marque, nos pastis, l'art du service, vidéo, avis clients |
-| **Nos produits** | La gamme Mistral 32 (Original, Citron Bio, Réserve) |
-| **Pastisologie** | Tout savoir sur le pastis et formulaire « Donnez votre avis » |
-| **Notre histoire** | L'histoire de la marque Mistral 32 |
+| **Accueil (Index)** | Présentation de la marque, nos pastis, l'art du service, avis clients |
+| **Nos produits** *(en cours)* | La gamme Mistral 32 (Original, Citron Bio, Réserve) |
+| **Pastisologie** | Les arômes, l'art du service, le louche et les questions sur le pastis |
+| **Notre histoire** *(en cours)* | L'histoire de la marque Mistral 32 |
+
+Le site a un thème clair et un thème sombre, qu'on change avec le bouton en haut de la page.
 
 ## Charte graphique
 
