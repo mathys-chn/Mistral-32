@@ -5,9 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Pastisologie Mistral 32 : les arômes du pastis, l'art du service, le louche et les réponses à vos questions sur le pastis.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pastisologie - Mistral 32">
+    <meta property="og:description" content="Pastisologie Mistral 32 : les arômes du pastis, l'art du service, le louche et les réponses à vos questions sur le pastis.">
+    <meta property="og:image" content="https://mathys-chn.github.io/Mistral-32/image/aperitif-soleil.webp">
+    <meta property="og:url" content="https://mathys-chn.github.io/Mistral-32/pastisologie.html">
+
     <title>Pastisologie - Mistral 32</title>
 
-    <link rel="icon" type="image/x-icon" href="image/mistral32-logo-sur-bleu.svg">
+    <link rel="icon" type="image/svg+xml" href="image/mistral32-logo-sur-bleu.svg">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap">
     <link rel="stylesheet" href="css/light.css" id="theme">
     <link rel="stylesheet" href="css/global.css">
@@ -15,65 +23,65 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="top">
         <a class="logo" href="index.html" aria-label="Mistral 32 - Accueil">
             <img src="image/mistral32-logo-sur-bleu.svg" alt="Mistral 32">
         </a>
 
         <nav class="menu" aria-label="Navigation principale">
             <a href="index.html">Accueil</a>
-            <a href="index.html#produits">Nos produits</a>
-            <a class="actif" href="pastisologie.html">Pastisologie</a>
-            <a href="#histoire">Notre histoire</a>
+            <a href="produits.html">Nos produits</a>
+            <a class="active" href="pastisologie.html">Pastisologie</a>
+            <a href="histoire.html">Notre histoire</a>
         </nav>
 
-        <button class="bouton-theme" id="themeChanger" type="button" aria-label="Changer de thème">
-            <span class="soleil" aria-hidden="true">☀</span>
-            <span class="lune" aria-hidden="true">☾</span>
-            <span class="rond" aria-hidden="true"></span>
+        <button class="theme-button" id="themeChanger" type="button" aria-label="Changer de thème">
+            <span class="sun" aria-hidden="true">☀</span>
+            <span class="moon" aria-hidden="true">☾</span>
+            <span class="knob" aria-hidden="true"></span>
         </button>
-        <a class="bouton-avis" href="index.html#avis">
+        <a class="review-button" href="index.html#reviews">
             <img src="image/star-svgrepo-com.svg" alt="" aria-hidden="true">
             Donnez votre avis
         </a>
     </header>
 
     <main>
-        <section class="banniere">
-            <header class="banniere-texte">
-                <p class="petit-titre">Pastisologie</p>
+        <section class="hero">
+            <header class="hero-text">
+                <p class="label">Pastisologie</p>
                 <h1>Le pastis,<br>tout un art de vivre.</h1>
                 <p>Des plantes au verre, découvrez ce qui fait le caractère du pastis. Les arômes, les bons gestes et les petits secrets de Mistral 32.</p>
             </header>
-            <figure class="banniere-image">
-                <img src="image/aperitif-soleil.png" alt="Bouteille de Mistral 32 et carafe d'eau">
+            <figure class="hero-image">
+                <img src="image/aperitif-soleil.webp" alt="Bouteille de Mistral 32 et carafe d'eau">
             </figure>
         </section>
 
-        <ul class="bandeau">
+        <ul class="highlights">
             <li>● 32 plantes & épices</li>
             <li>● Anis étoilé & réglisse</li>
             <li>● Herbes de Provence</li>
             <li>● Distillé à Marseille</li>
         </ul>
 
-        <section class="aromes">
+        <section class="aromas">
             <h2>Les arômes</h2>
             <h3>32 plantes, un caractère singulier.</h3>
 
-            <section class="liste-aromes">
+            <section class="aroma-list">
                 <article>
-                    <p class="numero">01</p>
+                    <p class="number">01</p>
                     <h4>L'anis étoilé</h4>
                     <p>La signature fraîche et anisée du pastis, qui s'exprime pleinement au contact de l'eau.</p>
                 </article>
                 <article>
-                    <p class="numero">02</p>
+                    <p class="number">02</p>
                     <h4>La réglisse</h4>
                     <p>Une note douce et profonde qui accompagne l'anis et prolonge la dégustation.</p>
                 </article>
                 <article>
-                    <p class="numero">03</p>
+                    <p class="number">03</p>
                     <h4>Les herbes de Provence</h4>
                     <p>Un bouquet végétal qui évoque le Sud et donne à Mistral 32 toute sa personnalité.</p>
                 </article>
@@ -81,7 +89,7 @@
         </section>
 
         <section class="service">
-            <img src="image/pastis-soleil.png" alt="Eau versée dans un verre de Mistral 32">
+            <img src="image/pastis-soleil.webp" loading="lazy" alt="Eau versée dans un verre de Mistral 32">
             <section>
                 <h2>L'art du service</h2>
                 <h3>Le parfait Mistral 32, en 4 temps</h3>
@@ -106,8 +114,8 @@
             </section>
         </section>
 
-        <section class="saviez-vous">
-            <img src="image/pastis-soleil.png" alt="Le pastis se trouble au contact de l'eau">
+        <section class="did-you-know">
+            <img src="image/pastis-soleil.webp" loading="lazy" alt="Le pastis se trouble au contact de l'eau">
             <section>
                 <h2>Le saviez-vous ?</h2>
                 <h3>Le louche, la magie de l'anis.</h3>
@@ -135,57 +143,61 @@
             </article>
         </section>
 
-        <section class="theorie">
+        <section class="call-to-action">
             <h2>De la théorie à l'apéritif.</h2>
             <p>Original, Citron Bio ou Réserve : trouvez le Mistral 32 qui vous ressemble.</p>
-            <a class="bouton-bleu" href="index.html#produits">Découvrir nos pastis</a>
+            <a class="button-blue" href="produits.html">Découvrir nos pastis</a>
         </section>
     </main>
 
-    <footer class="footer-page">
-        <div class="footer-contenu">
-            <section class="footer-marque">
-                <img class="logo-clair" src="image/mistral32-logo-clair.svg" alt="Mistral 32">
-                <img class="logo-sombre" src="image/mistral32-logo-sur-bleu.svg" alt="Mistral 32">
+    <a class="back-to-top" href="#top">↑ Haut de page</a>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <section class="footer-brand">
+                <img class="logo-light" src="image/mistral32-logo-clair.svg" alt="Mistral 32">
+                <img class="logo-dark" src="image/mistral32-logo-sur-bleu.svg" alt="Mistral 32">
                 <p>Le pastis artisanal soufflé par le mistral.<br>
                     Né en Provence, à partager entre amis.</p>
-                <a class="pied-bouton" href="index.html#avis">
+                <a class="footer-button" href="index.html#reviews">
                     <img src="image/star-svgrepo-com.svg" alt="" aria-hidden="true">
                     Donnez votre avis
                 </a>
             </section>
 
-            <nav class="footer-colonne" aria-label="Navigation du pied de page">
+            <nav class="footer-column" aria-label="Navigation du pied de page">
                 <h2>Navigation</h2>
                 <a href="index.html">Accueil</a>
-                <a href="index.html#produits">Nos produits</a>
+                <a href="produits.html">Nos produits</a>
                 <a href="pastisologie.html">Pastisologie</a>
-                <a href="#histoire">Notre histoire</a>
+                <a href="histoire.html">Notre histoire</a>
             </nav>
 
-            <section class="footer-colonne">
+            <section class="footer-column">
                 <h2>Nous trouver</h2>
-                <p>IUT d'Aix-Marseille</p>
-                <p>Département Informatique</p>
-                <p>413 avenue Gaston Berger</p>
-                <p>13100 Aix-en-Provence</p>
+                <address>
+                    IUT d'Aix-Marseille<br>
+                    Département Informatique<br>
+                    413 avenue Gaston Berger<br>
+                    13100 Aix-en-Provence
+                </address>
             </section>
 
-            <nav class="footer-colonne" aria-label="Réseaux sociaux">
+            <nav class="footer-column" aria-label="Réseaux sociaux">
                 <h2>Suivez-nous</h2>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Instagram</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Facebook</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">YouTube</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">TikTok</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.youtube.com/">YouTube</a>
+                <a href="https://www.tiktok.com/">TikTok</a>
             </nav>
         </div>
 
-        <p class="footer-mention">
+        <p class="footer-bottom">
             <span>© 2026 Mistral 32 · Projet de CHENU Mathys, BELTRAME Hugo et PICO Baptiste</span>
             <span>Mentions légales · Sources · Plan du site</span>
         </p>
 
-        <p class="avertissement">
+        <p class="warning">
             L’abus d’alcool est dangereux pour la santé. À consommer avec modération.
         </p>
     </footer>

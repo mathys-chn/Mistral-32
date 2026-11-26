@@ -1,4 +1,5 @@
-.banniere {
+/* Bannière du haut */
+.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,25 +10,25 @@
     background: var(--hero);
 }
 
-.banniere-texte {
+.hero-text {
     max-width: 40%;
-    color: var(--texte-hero);
+    color: var(--text-hero);
 }
 
-.petit-titre {
+.label {
     margin: 0;
     color: var(--accent);
     font-size: 0.8rem;
     text-transform: uppercase;
 }
 
-.banniere-texte h1 {
+.hero-text h1 {
     font-family: "Inter", sans-serif;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-.banniere-texte p {
+.hero-text p {
     font-family: "Inter", sans-serif;
     font-size: 1.2rem;
     font-weight: 100;
@@ -35,17 +36,17 @@
     margin-bottom: 30px;
 }
 
-.banniere-texte .petit-titre {
+.hero-text .label {
     font-size: 0.8rem;
     margin-bottom: 0;
 }
 
-.banniere-image {
+.hero-image {
     margin: 0;
     width: 40%;
 }
 
-.banniere-image img {
+.hero-image img {
     display: block;
     width: 100%;
     max-height: 520px;
@@ -53,7 +54,8 @@
     border-radius: 8px;
 }
 
-.bandeau {
+/* Bandeau jaune */
+.highlights {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -65,18 +67,20 @@
     padding: 20px;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
-    color: var(--texte-accent);
+    color: var(--text-accent);
 }
 
-.bouton-bleu {
+/* Bouton */
+.button-blue {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 4px;
     background: var(--action);
-    color: var(--texte-action);
+    color: var(--text-action);
     text-decoration: none;
 }
 
+/* L'art du service */
 .service {
     display: flex;
     align-items: center;
@@ -94,88 +98,92 @@
 
 .service h2 {
     font-size: 0.8rem;
-    color: var(--titre);
+    color: var(--title);
     text-transform: uppercase;
 }
 
 .service h3 {
     font-size: 1.5rem;
-    color: var(--titre);
+    color: var(--title);
 }
 
 .service li {
     margin-bottom: 15px;
-    color: var(--titre);
+    color: var(--title);
     font-weight: bold;
 }
 
 .service h4 {
     margin: 0;
-    color: var(--titre);
+    color: var(--title);
 }
 
 .service p {
     margin: 5px 0 0;
     font-size: 0.9rem;
     font-weight: normal;
-    color: var(--texte);
+    color: var(--text);
 }
 
-.aromes h2,
-.saviez-vous h2,
+/* Titres des sections */
+.aromas h2,
+.did-you-know h2,
 .questions h2 {
     font-size: 0.8rem;
-    color: var(--titre);
+    color: var(--title);
     text-transform: uppercase;
 }
 
-.aromes h3,
-.saviez-vous h3,
+.aromas h3,
+.did-you-know h3,
 .questions h3 {
     font-size: 1.5rem;
-    color: var(--titre);
+    color: var(--title);
 }
 
-.aromes {
+/* Les arômes */
+.aromas {
     padding: 60px 48px;
 }
 
-.liste-aromes {
+.aroma-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
 
-.liste-aromes h4 {
+.aroma-list h4 {
     margin: 0;
     font-size: 1.2rem;
-    color: var(--titre);
+    color: var(--title);
 }
 
-.numero {
+.number {
     margin: 0 0 10px;
     font-size: 0.8rem;
-    color: var(--titre);
+    color: var(--title);
 }
 
-.saviez-vous {
+/* Le saviez-vous */
+.did-you-know {
     display: flex;
     align-items: center;
     gap: 60px;
     padding: 60px 48px;
 }
 
-.saviez-vous img {
+.did-you-know img {
     width: 30%;
     height: 400px;
     object-fit: cover;
     border-radius: 8px;
 }
 
-.saviez-vous p {
+.did-you-know p {
     line-height: 1.6;
 }
 
+/* Les questions */
 .questions {
     padding: 40px 48px;
 }
@@ -187,35 +195,37 @@
 .questions h4 {
     margin: 0 0 10px;
     font-size: 1.2rem;
-    color: var(--titre);
+    color: var(--title);
 }
 
-.theorie {
+/* Dernier bloc avec le bouton */
+.call-to-action {
     padding: 60px 48px;
     text-align: center;
 }
 
-.theorie h2 {
+.call-to-action h2 {
     font-size: 1.5rem;
-    color: var(--titre);
+    color: var(--title);
 }
 
-.theorie p {
+.call-to-action p {
     margin-bottom: 20px;
 }
 
+/* Smartphone */
 @media (max-width: 620px) {
-    .banniere {
+    .hero {
         flex-direction: column;
         align-items: flex-start;
         padding: 40px 24px;
     }
 
-    .banniere-texte {
+    .hero-text {
         max-width: 100%;
     }
 
-    .banniere-image {
+    .hero-image {
         width: 100%;
         max-width: 320px;
     }
@@ -229,22 +239,22 @@
         width: 100%;
     }
 
-    .liste-aromes {
+    .aroma-list {
         grid-template-columns: 1fr;
     }
 
-    .saviez-vous {
+    .did-you-know {
         flex-direction: column;
         padding: 40px 24px;
     }
 
-    .saviez-vous img {
+    .did-you-know img {
         width: 100%;
     }
 
-    .aromes,
+    .aromas,
     .questions,
-    .theorie {
+    .call-to-action {
         padding: 40px 24px;
     }
 }

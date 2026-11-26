@@ -1,23 +1,25 @@
+/* Couleurs du thème clair */
 :root {
     --page: #fffbef;
     --hero: #1d4e9e;
     --alternative: #f3e7b0;
     --action: #1d4e9e;
     --accent: #f7c600;
-    --carte: #fffbef;
-    --texte: #1c2230;
-    --titre: #1d4e9e;
-    --texte-hero: #fffbef;
-    --texte-action: #fffbef;
-    --texte-accent: #1d4e9e;
-    --lien: #1d4e9e;
-    --bordure: #f3e7b0;
-    --bordure-action: #1d4e9e;
-    --switch-piste: #edede9;
-    --switch-icone: #a56e00;
+    --card: #fffbef;
+    --text: #1c2230;
+    --title: #1d4e9e;
+    --text-hero: #fffbef;
+    --text-action: #fffbef;
+    --text-accent: #1d4e9e;
+    --link: #1d4e9e;
+    --border: #f3e7b0;
+    --border-action: #1d4e9e;
+    --switch-track: #edede9;
+    --switch-icon: #a56e00;
 }
 
-.lune,
-.footer-marque .logo-sombre {
+/* Éléments cachés en thème clair */
+.moon,
+.footer-brand .logo-dark {
     display: none;
 }

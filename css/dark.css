@@ -1,27 +1,30 @@
+/* Couleurs du thème sombre */
 :root {
     --page: #0e1116;
     --hero: #1a1f2b;
     --alternative: #1a1f2b;
     --action: #1d4e9e;
     --accent: #f7c600;
-    --carte: #232a38;
-    --texte: #f5f1e6;
-    --titre: #f5f1e6;
-    --texte-hero: #f5f1e6;
-    --texte-action: #f5f1e6;
-    --texte-accent: #0e1116;
-    --lien: #ff8c42;
-    --bordure: #2e3647;
-    --bordure-action: #b9b4a8;
-    --switch-piste: #232a38;
-    --switch-icone: #f7c600;
+    --card: #232a38;
+    --text: #f5f1e6;
+    --title: #f5f1e6;
+    --text-hero: #f5f1e6;
+    --text-action: #f5f1e6;
+    --text-accent: #0e1116;
+    --link: #ff8c42;
+    --border: #2e3647;
+    --border-action: #b9b4a8;
+    --switch-track: #232a38;
+    --switch-icon: #f7c600;
 }
 
-.soleil,
-.footer-marque .logo-clair {
+/* Éléments cachés en thème sombre */
+.sun,
+.footer-brand .logo-light {
     display: none;
 }
 
-.bouton-theme {
+/* Le rond du bouton passe à gauche */
+.theme-button {
     flex-direction: row-reverse;
 }

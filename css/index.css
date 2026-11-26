@@ -1,4 +1,5 @@
-.banniere {
+/* Bannière du haut */
+.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,25 +10,25 @@
     background: var(--hero);
 }
 
-.banniere-texte {
+.hero-text {
     max-width: 40%;
-    color: var(--texte-hero);
+    color: var(--text-hero);
 }
 
-.petit-titre {
+.label {
     margin: 0;
     color: var(--accent);
     font-size: 0.8rem;
     text-transform: uppercase;
 }
 
-.banniere-texte h1 {
+.hero-text h1 {
     font-family: "Inter", sans-serif;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-.banniere-texte p {
+.hero-text p {
     font-family: "Inter", sans-serif;
     font-size: 1.2rem;
     font-weight: 100;
@@ -35,17 +36,17 @@
     margin-bottom: 30px;
 }
 
-.banniere-texte .petit-titre {
+.hero-text .label {
     font-size: 0.8rem;
     margin-bottom: 0;
 }
 
-.banniere-image {
+.hero-image {
     margin: 0;
     width: 40%;
 }
 
-.banniere-image img {
+.hero-image img {
     display: block;
     width: 100%;
     max-height: 520px;
@@ -53,31 +54,33 @@
     border-radius: 8px;
 }
 
-.bouton-jaune {
+/* Boutons */
+.button-yellow {
     display: inline-block;
     margin-right: 10px;
     padding: 12px 24px;
     background-color: var(--accent);
-    color: var(--texte-accent);
+    color: var(--text-accent);
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 4px;
 }
 
-.bouton-blanc {
+.button-white {
     display: inline-block;
     padding: 12px 24px;
     background-color: transparent;
-    color: var(--texte-hero);
+    color: var(--text-hero);
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 4px;
-    border: 2px solid var(--texte-hero);
+    border: 2px solid var(--text-hero);
 }
 
-.bandeau {
+/* Bandeau jaune */
+.highlights {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -89,44 +92,45 @@
     padding: 20px;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
-    color: var(--texte-accent);
+    color: var(--text-accent);
 }
 
-.nos-pastis {
+/* Nos pastis */
+.our-pastis {
     margin: 0 auto;
     padding: 60px 48px;
     background: var(--page);
 }
 
-.nos-pastis h2 {
+.our-pastis h2 {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     margin-bottom: 20px;
-    color: var(--titre);
+    color: var(--title);
     font-weight: 400;
 }
 
-.nos-pastis h3 {
+.our-pastis h3 {
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: var(--titre);
+    color: var(--title);
 }
 
-.nos-pastis p {
+.our-pastis p {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     line-height: 1.6;
 }
 
-.produits {
+.products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5%;
     margin-bottom: 40px;
 }
 
-.produits img {
+.products img {
     display: block;
     width: 100%;
     height: auto;
@@ -134,40 +138,41 @@
     margin-bottom: 10px;
 }
 
-.produits h4 {
+.products h4 {
     margin: 0;
-    color: var(--titre);
+    color: var(--title);
     font-size: 1.2rem;
 }
 
-.produits .degre {
+.products .degree {
     margin: 0;
     font-size: 0.8rem;
 }
 
-.lien {
-    color: var(--lien);
+.link {
+    color: var(--link);
     font-weight: bold;
 }
 
-.bouton-contour {
+.button-outline {
     display: inline-block;
     padding: 10px 20px;
-    border: 2px solid var(--bordure-action);
+    border: 2px solid var(--border-action);
     border-radius: 4px;
-    color: var(--titre);
+    color: var(--title);
     text-decoration: none;
 }
 
-.bouton-bleu {
+.button-blue {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 4px;
     background: var(--action);
-    color: var(--texte-action);
+    color: var(--text-action);
     text-decoration: none;
 }
 
+/* L'art du service */
 .service {
     display: flex;
     align-items: center;
@@ -185,99 +190,140 @@
 
 .service h2 {
     font-size: 0.8rem;
-    color: var(--titre);
+    color: var(--title);
     text-transform: uppercase;
 }
 
 .service h3 {
     font-size: 1.5rem;
-    color: var(--titre);
+    color: var(--title);
 }
 
 .service li {
     margin-bottom: 15px;
-    color: var(--titre);
+    color: var(--title);
     font-weight: bold;
 }
 
 .service h4 {
     margin: 0;
-    color: var(--titre);
+    color: var(--title);
 }
 
 .service p {
     margin: 5px 0 0;
     font-size: 0.9rem;
     font-weight: normal;
-    color: var(--texte);
+    color: var(--text);
 }
 
-.avis {
+/* Avis */
+.reviews {
     padding: 60px 48px;
 }
 
-.avis h2 {
+.reviews h2 {
     font-size: 0.8rem;
-    color: var(--titre);
+    color: var(--title);
     text-transform: uppercase;
 }
 
-.avis h3 {
+.reviews h3 {
     font-size: 1.5rem;
-    color: var(--titre);
+    color: var(--title);
 }
 
-.liste-avis {
+.review-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 30px;
 }
 
-.liste-avis article {
+.review-list article {
     padding: 20px;
-    border: 2px solid var(--bordure);
+    border: 2px solid var(--border);
     border-radius: 8px;
-    background: var(--carte);
+    background: var(--card);
 }
 
-.etoiles {
+.stars {
     color: var(--accent);
 }
 
-.liste-avis blockquote {
+.review-list blockquote {
     margin: 0 0 20px;
     line-height: 1.5;
 }
 
-.auteur {
+.author {
     margin: 0;
     font-weight: bold;
 }
 
-.ville {
+.city {
     margin: 0;
     font-size: 0.8rem;
 }
 
+/* Formulaire d'avis */
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    background: var(--card);
+}
+
+.review-form h4 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: var(--title);
+}
+
+.review-form label {
+    font-weight: bold;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea {
+    padding: 8px;
+    border: 1px solid var(--border-action);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.review-form button {
+    margin-top: 10px;
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Smartphone */
 @media (max-width: 620px) {
-    .banniere {
+    .hero {
         flex-direction: column;
         align-items: flex-start;
         padding: 40px 24px;
     }
 
-    .banniere-texte {
+    .hero-text {
         max-width: 100%;
     }
 
-    .banniere-image {
+    .hero-image {
         width: 100%;
         max-width: 320px;
     }
 
-    .produits,
-    .liste-avis {
+    .products,
+    .review-list {
         grid-template-columns: 1fr;
     }
 
